@@ -6,6 +6,15 @@
   width: 84%;
   margin-left: 8%;
 }
+ul::before{
+	content: '';
+	position: absolute;
+	width: 10px;
+  height: 100%;
+	background: #afdcf8;
+	margin-left: 20%;
+}
+
 ul li {
   list-style: none;
 }
@@ -13,19 +22,20 @@ ul li {
   display: inline-block;
   width: 21%;
   margin-left: 1em;
-  border-radius: 1em;
 }
 .date {
   text-align: right;
 }
 .time {
   text-align: right;
+  margin-top: -10%;
 }
-.fa fa-battery-quarter::before{
+.fa-battery-quarter{
   background-color: #3594cb;
   width: 3em;
   height: 3em;
   border-radius: 3em;
+  border-color: #afdcf8;
 }
 .oddEntry{
   display: inline-block;
