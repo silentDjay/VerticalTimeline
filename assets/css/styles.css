@@ -6,6 +6,16 @@
   width: 84%;
   margin-left: 8%;
 }
+.fa-battery-quarter{
+  background-color: #3594cb;
+  width: 2em;
+  height: 2em;
+  border-radius: 2em;
+  border-color: #afdcf8;
+  border-width: 10px;
+  border-style: solid;
+  color: white;
+}
 ul::before{
 	content: '';
 	position: absolute;
@@ -30,17 +40,10 @@ ul li {
   text-align: right;
   margin-top: -10%;
 }
-.fa-battery-quarter{
-  background-color: #3594cb;
-  width: 3em;
-  height: 3em;
-  border-radius: 3em;
-  border-color: #afdcf8;
-}
 .oddEntry{
   display: inline-block;
   padding: 1em;
-  margin: 1em;
+  margin: 0 1em 2em 1em;
   width: 63%;
   background-color: #6cbfee;
   color: white;
