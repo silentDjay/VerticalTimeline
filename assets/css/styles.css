@@ -1,6 +1,6 @@
 /*CLASS CONTAINERS*/
 * {
-  border-style: solid;
+  /*border-style: solid;*/
 }
 .container{
   width: 84%;
@@ -15,6 +15,7 @@
   border-width: 10px;
   border-style: solid;
   color: white;
+  vertical-align: top;
 }
 ul::before{
 	content: '';
@@ -32,9 +33,11 @@ ul li {
   display: inline-block;
   width: 21%;
   margin-left: 1em;
+  vertical-align: top;
 }
 .date {
   text-align: right;
+  margin-top: -.3em;
 }
 .time {
   text-align: right;
