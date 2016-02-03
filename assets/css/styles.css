@@ -1,19 +1,35 @@
 /*CLASS CONTAINERS*/
-
+* {
+  border-style: solid;
+}
 .container{
-
+  width: 84%;
+  margin-left: 8%;
+}
+ul li {
+  list-style: none;
 }
 .dateTime{
-  display: inline;
+  display: inline-block;
+  width: 21%;
 }
 .date {
-
+  font-size: 1em;
 }
 .time {
-
+  font-size: 3em;
+}
+.fa fa-battery-quarter{
+  background-color: blue;
+  width: 3em;
+  height: 3em;
+  border-radius: 3em;
 }
 .oddEntry{
-  display: inline;
+  display: inline-block;
+  padding: 1em;
+  margin: 1em;
+  width: 63%;
 }
 
 /*ID CONTAINERS*/
