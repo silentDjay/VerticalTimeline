@@ -12,15 +12,17 @@ ul li {
 .dateTime{
   display: inline-block;
   width: 21%;
+  margin-left: 1em;
+  border-radius: 1em;
 }
 .date {
-  font-size: 1em;
+  text-align: right;
 }
 .time {
-  font-size: 3em;
+  text-align: right;
 }
-.fa fa-battery-quarter{
-  background-color: blue;
+.fa fa-battery-quarter::before{
+  background-color: #3594cb;
   width: 3em;
   height: 3em;
   border-radius: 3em;
@@ -30,6 +32,13 @@ ul li {
   padding: 1em;
   margin: 1em;
   width: 63%;
+  background-color: #6cbfee;
+  color: white;
+  border-radius: 1em;
+}
+.entryTitle {
+  border-bottom-style: solid;
+  padding-bottom: .5em;
 }
 
 /*ID CONTAINERS*/
