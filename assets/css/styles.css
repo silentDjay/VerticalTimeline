@@ -14,9 +14,9 @@ ul::before{
   height: 140em;
 	background: #afdcf8;
 	margin-left: 20%;
+  /*text-align: center;*/
 }
 .fa-battery-quarter{
-  /*position: absolute;*/
   background-color: #3594cb;
   width: 2em;
   height: 2em;
@@ -25,7 +25,8 @@ ul::before{
   border-width: 10px;
   border-style: solid;
   color: white;
-  vertical-align: top;
+  text-align: center;
+  vertical-align: middle;
 }
 /*.oddArrow-left{
   width: 0;
